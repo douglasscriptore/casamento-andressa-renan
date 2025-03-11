@@ -6,6 +6,7 @@ import { useDisclosure } from "@mantine/hooks";
 import { IconAt } from "@tabler/icons-react";
 import axios from "axios";
 import { useState } from "react";
+import Image from 'next/image';
 
 export default function GiftCard(gift: any) {
   const [opened, { open, close }] = useDisclosure(false);
@@ -85,9 +86,10 @@ export default function GiftCard(gift: any) {
 
       <div className="flex flex-col gap-4 p-3 w-[250px] h-auto border rounded shadow-md transform hover:scale-105 transition-transform duration-300">
         <div>
-          <img
+          <Image
             className="object-cover w-full h-64 border rounded"
             src={gift.imageUrl}
+            alt={gift.name}
           />
         </div>
         <div className="flex flex-col justify-between text-left gap-2 h-full">
