@@ -14,7 +14,7 @@ export default function SaveTheDate() {
         </h1>
         <h2>
           <span className="text-gray-500 font-bold border-b border-1">
-            15 de maio de 2025, às 16:00
+            10 de maio de 2025, às 16:00
           </span>
         </h2>
         <p>
@@ -32,9 +32,9 @@ export default function SaveTheDate() {
             name="Casamento - Andressa e Renan"
             options={["Google", "Outlook.com", "Apple", "Microsoft365"]}
             location="Curitiba"
-            startDate="2023-11-24"
-            endDate="2023-11-24"
-            startTime="17:15"
+            startDate="2025-05-10"
+            endDate="2025-05-10"
+            startTime="16:00"
             endTime="23:00"
             timeZone="America/Sao_Paulo"
             size="3"
