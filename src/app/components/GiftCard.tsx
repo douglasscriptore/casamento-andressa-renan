@@ -88,8 +88,11 @@ export default function GiftCard(gift: any) {
         <div>
           <Image
             className="object-cover w-full h-64 border rounded"
+            loader={() => gift.imageUrl}
             src={gift.imageUrl}
             alt={gift.name}
+            width={250}
+            height={250}
           />
         </div>
         <div className="flex flex-col justify-between text-left gap-2 h-full">

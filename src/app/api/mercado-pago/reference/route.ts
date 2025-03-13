@@ -2,10 +2,11 @@ import { getBaseUrl } from "@/app/services/url";
 import mercadopago from "mercadopago";
 
 mercadopago.configure({
-  access_token: process.env.MERCADO_PAGO_ACCESS_TOKEN!,
+  access_token: process.env.MERCADO_PAGO_ACCESS_TOKEN! ,
 });
 
 export async function POST(req: Request) {
+
   try {
     const body = await req.json();
 
