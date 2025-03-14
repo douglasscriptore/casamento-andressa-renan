@@ -30,14 +30,14 @@ export default function Navbar() {
           </a>
         </li> */}
         <li className="ml-6">
-          {/* <Link
+       <Link
             href="/pages/gifts"
             className="text-gray-500 hover:text-gray-200 cursor-pointer"
-          > */}
-          {/* <div className="text-gray-500 hover:text-gray-200 cursor-pointer" onClick={() => alert("Em breve")}> */}
-            Lista de presentes em breve...
-          {/* </div> */}
-          {/* </Link> */}
+          > 
+          <div className="text-gray-500 hover:text-gray-200 cursor-pointer">
+            Lista de presentes
+          </div>
+          </Link>
         </li>
         {/* <li className="ml-6">
           <a className="text-gray-500 hover:text-gray-200 cursor-pointer">
